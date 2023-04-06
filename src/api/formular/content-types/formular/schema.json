@@ -1,0 +1,31 @@
+{
+  "kind": "collectionType",
+  "collectionName": "formulars",
+  "info": {
+    "singularName": "formular",
+    "pluralName": "formulars",
+    "displayName": "Formular Contact",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "nume": {
+      "type": "string"
+    },
+    "prenume": {
+      "type": "string"
+    },
+    "telefon": {
+      "type": "integer"
+    },
+    "email": {
+      "type": "email"
+    },
+    "mesaj": {
+      "type": "text"
+    }
+  }
+}
